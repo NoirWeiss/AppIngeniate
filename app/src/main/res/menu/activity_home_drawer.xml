@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@android:color/background_light">
+
+    <item android:title="@string/admission">
+        <menu>
+            <item
+                android:id="@+id/nav_math"
+                android:icon="@drawable/img_math"
+                android:title="@string/mathematicalthinking" />
+            <item
+                android:id="@+id/nav_analytic"
+                android:icon="@drawable/img_analytical"
+                android:title="@string/analyticalthinking" />
+            <item
+                android:id="@+id/nav_lenguaje"
+                android:icon="@drawable/img_structure"
+                android:title="@string/languagestructure" />
+            <item
+                android:id="@+id/nav_lecture"
+                android:icon="@drawable/img_lecture"
+                android:title="@string/lecturecomprehension" />
+        </menu>
+    </item>
+    <!--<item
+        android:icon="@drawable/img_tools"
+        android:title="@string/diagnostic">
+        <menu>
+            <item
+                android:id="@+id/nav_prox"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Proximamente" />
+        </menu>
+    </item>
+    <item android:title="@string/socialinteraction">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+        </menu>
+    </item>
+
+    -->
+
+</menu>

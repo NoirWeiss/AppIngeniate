@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4285f4</color>
+    <color name="colorPrimaryDark">#2f4aa3</color>
+    <color name="colorAccent">#dd35e5</color>
+    <color name="Yellow">#ffd140</color>
+    <color name="OptionsTheory1">#c8ffffff</color>
+    <color name="Option2">#ffd140</color>
+    <color name="navigationColor">#f1f3f4</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btntheory"
+        android:icon="@drawable/img_theory"
+        android:title="@string/theory" />
+    <!--<item
+        android:id="@+id/btnexamples"
+        android:icon="@drawable/img_exam"
+        android:title="@string/examples" />-->
+    <item
+        android:id="@+id/btnexam"
+        android:icon="@drawable/img_simulation"
+        android:title="Exam" />
+</menu>

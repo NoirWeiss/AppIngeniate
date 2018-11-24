@@ -1,0 +1,523 @@
+<resources>
+    <string name="app_name" translatable="false">Ingeniate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="theory">Theory</string>
+    <string name="title_activity_tabbed_">Tabbed_Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="admission">Admission</string>
+    <string name="socialinteraction">Social Interaction</string>
+    <string name="examples">Examples</string>
+    <string name="test">Test</string>
+    <string name="mathematicalthinking">Mathematical Thinking</string>
+    <string name="analyticalthinking">Analytical Thinking</string>
+    <string name="languagestructure">Language Structure</string>
+    <string name="lecturecomprehension">Lecture Comprehension</string>
+    <string name="share">Share</string>
+    <string name="diagnostic">Diagnostic</string>
+    <string name="Admition">Admition</string>
+    <string name="question">Pregunta</string>
+    <string name="check">Check</string>
+    <string name="correct">Very good!</string>
+    <string name="incorrect">Incorrect...</string>
+    <string name="next">Siguiente</string>
+    <string name="finish">Terminar</string>
+    <string name="prev">Anterior</string>
+    <string name="results">Resultados</string>
+    <string name="start_over">Volver a comenzar</string>
+
+    AHBottomNavigationItem theory = new AHBottomNavigationItem
+    (R.string.bottomnav_title_0,R.drawable.img_theory)
+    <string name="consejos_inicio">
+
+        Un examen de admisión es la puerta a un futuro profesional, por lo que, la preparación es fundamental para asegurar tu lugar en una institución.
+        \n\nTodas las estrategias y tácticas son útiles cuando se trata de aprobar un examen de admisión, sin embargo una planeación, la preparación adecuada y los consejos apropiados, pueden aventajar un poco para conseguir el objetivo.
+    </string>
+    <string name="consejos_previo">
+        \n• Visualiza el éxito. “Actuar como si”, es uno de los pilares del cambio en la Programación neurolingüística (PNL), esto supone proceder como si ya se hubiera alcanzado el objetivo ya que el poder de la mente influye en nuestras emociones y eso se capitaliza en seguridad y confianza de ti mismo.
+        \n\n• Descansa y evita estudiar. Días antes del examen de admisión, de nada sirve saturar la cabeza de conocimientos, de hecho es contraproducente, para eso se supone que se estudió con antelación y dormir suficientes horas así como comer ligero, ayudaran a que te sientas activo y dispuesto.
+        \n\n• Disciplina tu estudio. Realiza una planeación factible, es decir estudia al menos 50 minutos al día, de nada sirve estudiar una ocasión tres horas y dejar de estudiar durante días, la constancia y perseverancia hacen la diferencia.
+        \n\n• Repasa lo del día anterior con regularidad. Antes de comenzar con conocimientos nuevos revisa lo que estudiaste previamente, esto ayudará a afianzar los conocimientos adquiridos.
+        \n\n• Realiza un sumario de la semana. Dedica un día a repasar todo lo que viste en la semana, esto propiciará a que descubras tus puntos débiles o dónde debes prestar más atención.
+        \n\n• Graba lo que estudies. Puedes hacer guías de estudio y grabarlas en audio, si por algún motivo un día no te sientes dispuesto, podrás escuchar las lecciones a donde quiera que vayas.
+        \n\n• Sincroniza tu dispositivo móvil. Fija recordatorios y lleva una agenda donde siempre tengas visibles tus propósitos de estudio.
+        \n\n• Estudia con tus amigos. Transmitir el conocimiento es una forma de afianzarlo, entonces si tienes la  asistencia de tus amigos o tú mismo los ayudas, garantizarás la firmeza de lo aprendido.
+        \n\n• Realiza actividad física después de determinado tiempo. El movimiento y la memoria están sincronizados, haz gimnasia cerebral, los ejercicios son sencillos y ayudarán en tu proceso de estudio.
+    </string>
+
+    <string name="consejos_durante">
+        \n• Responde la materia donde te sientas más seguro primero. El orden en el que respondes el examen importa, procura resolver primero lo más sencillo, así tendrás tiempo de poner atención en lo más complejo.
+        \n\n• Respira y relájate. Cuando tengas el examen enfrente revísalo bien, piensa que el examen es solo la capitalización de lo que ya has estudiado, respira profundo y restale importancia al estrés.
+        \n\n• Al finalizar el examen de admisión, revisa. Una vez terminado el examen, si tienes tiempo, revísalo e intenta situarte en las preguntas dónde tuviste dudas, eso te hará sentir más seguro al final.
+        \n\nLa preparación es fundamental a la hora de presentar un examen de admisión, la disciplina es la base que te conducirá al éxito seguro, no desestimes incursionar en un curso de preparación, esto, aunado a tu esfuerzo, seguro te ayudará.
+    </string>
+
+
+    <array name="subjects">
+        <item>Pensamiento Matemático</item>
+        <item>Pensamiento Analítico</item>
+        <item>Estructura de la Lengua</item>
+        <item>Comprensión Lectora</item>
+    </array>
+
+
+<!--PENSAMIENTO MATEMÁTICO-->
+    <array name="pm_theory_titles">
+        <item>FRACCIONES</item>
+        <item>PROPORCIONES</item>
+        <item>PORCENTAJES</item>
+        <item>LEY DE SIGNOS</item>
+        <item>LEY DE EXPONENTES</item>
+        <item>PRODUCTOS NOTABLES</item>
+        <item>FACTORIZACIÓN</item>
+        <item>DESCOMPOSICIÓN DE RAÍCES</item>
+        <item>ECUACIONES LINEALES</item>
+        <item>MÉTODO DE SUMA Y RESTA</item>
+        <item>GEOMETRÍA Y TRIGONOMETRÍA</item>
+        <item>FIGURAS PROPORCIONALES</item>
+        <item>ÁREA, VOLÚMEN Y PERÍMETRO</item>
+        <item>TEOREMA DE PITÁGORAS</item>
+        <item>FUNCIONES TRIGONOMÉTRICAS</item>
+        <item>ESTADÍSTICA</item>
+    </array>
+
+    <array name="pm_theory_contents"> <!-- Contenido de pensamiento matemático -->
+
+        <item> <!-- Fracciones -->
+            Para sumar fracciones que tienen el mismo denominador, se suman los númeradores y se
+            deja el mismo denominador.
+        </item>
+
+        <item> <!-- Proporciones -->
+            El largo de un rectángulo se incrementa 25% y el ancho del rectángulo decrece 40%.
+            Determina el porcentaje en el que se incrementa el área.
+
+            \n\nConsiderando que el largo del rectángulo representa el 100% que es igual a 1, y el
+            ancho representa el 100% que de igual manera es igual a 1.
+
+            \n\nLo resolvemos de la siguiente manera.
+
+            \n - Largo= 100%+25% que incrementa = 125% =1.25
+            \n - Ancho= 100%-40% que decrece = 60 % =.6
+            \n - Multiplicamos 1.25 x .60 = .75 = 75% (100%-75% =25%)
+            Respuesta: decrece 25%
+        </item>
+
+        <item> <!-- Porcentajes -->
+            Para calcular un porcentaje lo haremos con un ejemplo.
+            \n\nQueremos calcular el 25% de 160
+            \n\n25% de 160 = .25 * 160 = 40
+            \nEjemplos:
+        </item>
+
+        <item><!-- Ley de signos -->
+            El comportamiento de los signos en las operaciones basicas corresponde a la siguiente
+            imagen, ademas hay que tener en cuenta que en la suma y resta el valor mayor es el que
+            define el signo.
+        </item>
+
+        <item><!-- Ley de exponentes -->
+            A continuación se pueden observar las reglas de los exponentes junto con un ejemplo de
+            estas.
+        </item>
+
+        <item><!-- Productos notables -->
+            A continuación se pueden observar los productos notables más comunes y su expresión
+            algebraica.
+        </item>
+
+        <item> <!-- Factorización -->
+            Consiste en descomponer una expresión algebraica en dos o más factores cuyo producto es
+            igual a la expresión propuesta.
+            \n\n\nEjemplo:
+        </item>
+
+        <item> <!-- Descomposición de ráices -->
+            Ejemplo  √20
+             
+            \n\nBuscar 2 números que multiplicados entre ellos den 20 y uno de ellos tenga raíz.
+
+            \n\n4*5, el que tiene raíz es el 4, la respuesta sería: 2√5
+            \n\n\nEjemplo:
+        </item>
+
+        <item> <!-- Ecuaciones lineales -->
+            Una ecuación de primer grado o ecuación lineal es una igualdad que involucra una o más
+            variables a la primera potencia.
+
+            \n\nPara despejar:
+            \nLas sumas pasan siendo restas y viceversa
+            \nLas multiplicaciones pasan siendo divisiones y viceversa
+            \nLas potencias pasan siendo raíces y viceversa
+
+            \n\nEjemplo
+
+        </item>
+
+        <item>  <!-- Método de suma y resta -->
+            Consiste en igualar los coeficientes de una misma incógnita en ambas ecuaciones y
+            sumar o restar las ecuaciones, de modo que se eliminen los términos.
+
+            \n\nEjemplo
+            \n3x-2y=7
+            \n2x+y=14
+
+            \n\nPaso 1-  Se igualan las incógnitas del sistema. En este caso se comenzara con la
+            incógnita y.
+            Para ello, se multiplica la segunda ecuación por 2,
+            quedando 4x+2y= 28
+
+            \n\n3x-2y=7
+            \n4x+2y= 28
+
+            \n\nPaso 2- Ahora, se suma o restan (según se requiera) términos semejantes,
+            eliminando el término con coeficiente común.
+
+            \n\n7x-0y =35
+
+            \n\n\nLuego, resuelvo la ecuación, quedando así x=5, ya que:
+            \n\n7x=35 -> x=35/7 -> x=5
+
+            \n\n\nYa tenemos el valor de una de las incógnitas. Para identificar el otro valor,
+            debemos remplazar en una de las ecuaciones el valor que obtuvimos de x. en este caso:
+
+            \n\n3x-2y=7
+            \n3(5)-2y=7
+            \n15-2y=7
+            \n-2y=7-15
+            \n-2y=-8
+            \n-y=-8/2
+            \n-y=-4  (-1)
+            \ny=4
+
+            \n\nPor lo tanto la solución a nuestro sistema de ecuaciones es →  S:  (5, 4)
+        </item>
+
+        <item>  <!-- Geometría y trigonometría-->
+            Ángulos Complementarios:
+            \nSon aquellos ángulos cuyas medidas suman 90°
+
+            \n\nÁngulos Suplementarios
+            \nSon aquellos ángulos cuyas medidas suman 180°
+
+            \n\nÁngulos Conjugados
+            \nSon aquellos ángulos cuyas medidas suman 360°
+        </item>
+
+        <item><!-- Figuras proporcionales -->
+            Las figuras proporcionales deben de cumplir con una condición:
+
+        </item>
+
+        <item><!-- Área, volúmen y perímetro -->
+            A continiación las principales formulas para la obtención del volumen.
+        </item>
+
+        <item> <!-- Teorema de pitágoras -->
+            En un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los
+            cuadrados de los catetos.
+
+            \n\nc^2 = a^2 + b^2   ó  c=√a^2+b^2
+        </item>
+
+        <item><!-- Funciones trigonométricas -->
+            A continuación se muestran las 6 formulas trigonometricas, ademas de su definición.
+        </item>
+
+        <item> <!-- Estadística -->
+            Media: Para hallar la media de un conjunto de datos, dividimos la suma de todos ellos
+            entre el número de datos que hay
+
+            \n\nMediana: Es el valor que ocupa la posición central de ellos(acomodados de menor a
+            mayor).
+            \n - Si el número de datos es impar, la mediana es el valor que ocupa la posición
+            central.
+            \n - Si el número de datos es par, la mediana es igual a la media de los 2 datos
+            centrales
+
+            \n\nModa: es el valor que más se repite o dicho de otra forma, el que tiene mayor
+            frecuencia absoluta entre ellos.
+        </item>
+
+    </array>
+
+
+    <array name="pm_exam"> <!-- Preguntas -->
+
+        <item>
+            Fracciones
+            \n\n¿Cuál es el resultado de realizar la siguiente suma de fracciones?
+            \n\n\t3/9 + 2/9 + 1/9;
+            7/3;7/9;*2/3;2/18
+        </item>
+
+        <item>
+            Fracciones
+            \n\n¿Cuál es el resultado de realizar la siguiente división de fracciones?
+            \n\n\t3/7 / 4;*
+            3/28;24/2;5/4;54/9
+        </item>
+
+        <item>
+            Proporciones
+            \n\nEl largo de un rectángulo se incrementa 30% y el ancho del rectángulo se incrementa por 20%.
+            \n\nDetermina el porcentaje en el que se incrementa el área.;
+            Crece 20%;Crece 30%;*Crece 56%;Crece 75%
+        </item>
+
+        <item>
+            Proporciones
+            \n\nEl largo de un rectángulo se incrementa 15% y el ancho del rectángulo decrece 20%.
+            \n\nDetermina el porcentaje en el que se decrementa el área.;
+            Decrece 10%;Decrece 6%; Decrece 15%;*Decrece 8%
+        </item>
+
+        <item>
+            Porcentajes
+            \n\nDetermina lo siguiente:
+            \n\n¿Cuál es el 40% de 160?.;*64;38;25;72
+        </item>
+
+        <item>
+            Porcentajes
+            \n\nDetermina el porcentaje al que corresponde la cifra 1 de la cifra 2.
+            \n\nCifra 1 -> 24 y  Cifra 2 -> 120.;
+            10%;18%;*20%;21%
+        </item>
+
+        <item>
+            Ley de Signos
+            \n\nDetermina la respuesta de la siguiente operación.
+            \n\n(10)-(-2)=;*12;20;5;8
+        </item>
+
+        <item>
+            Ley de Signos
+            \n\nDetermina la respuesta de la siguiente operación.
+            \n\n[(5)(3)]- 8 + [(2+1)(5-1)] + (8/4) + 2 =;
+            20;15;*23;18
+        </item>
+
+        <item>
+            Ley de Exponentes
+            \n\nDetermina la respuesta de la siguiente operación.
+            \n\n(X^5)(X^7)=;
+            X^8;*X^12;X^-2;35X
+        </item>
+
+        <item>
+            Ley de Exponentes
+            \n\nDetermina la respuesta de la siguiente operación.
+            \n\n2xy^2 + 5xy^2 + xy^2 =;
+            7xy^2;6xy^2;*8xy^2;10xy^2
+        </item>
+
+        <item>
+            Productos Notables
+            \n\nResuelve el siguiente binomio al cuadrado.
+            \n\n(x-y)^2 =;
+            2x - 2y;x - 2xy^2 - y;x - 2xy - y^2;*x^2 -2xy +y^2
+        </item>
+
+
+        <item>
+            Productos Notables
+            \n\nResuelve el siguiente binomio conjugado.
+            \n\n(2x + 5)(2x - 5)=;
+            4x^2;*4x^2 - 25;4x^2 + 10x -10; 4x - 25
+        </item>
+
+        <item>
+            Factorización
+            \n\nCual es el resultado de la siguiente factorización.
+            \n\n𝑥^2 −𝑥 −12 =;*(x - 4)(x + 3);(x - 6)(x + 2);(x - 12)(x + 2);(x - 3)(x + 4)
+        </item>
+
+        <item>
+            Factorización
+            \n\nCalcular el resultado del siguiente producto.
+            \n\n(x^3 - 8) por (x^a)=;*x^(3 + a) - 8x^a;x^(2 + a) - 8x^a;9x^(3+a); x^3 - 8x^a
+        </item>
+
+        <item>
+            Descomposición de Raíces
+            \n\nCalcular el resultado de descomponer la siguiente raíz.
+            \n\n√28;
+            5(√3);*2(√7);4(√12);5(√23)
+        </item>
+
+        <item>
+            Descomposición de Raíces
+            \n\nCalcular el resultado de descomponer la siguiente raíz.
+            \n\n√45;
+            5(√3);*3(√5);6(√2);2(√6)
+        </item>
+
+        <item>
+            Ecuaciones Lineales
+            \n\nCalcular el valor de la ingognita.
+            \n\n5x-2 = 23;
+            x = 3;x = 4;*x = 5;x = 8
+        </item>
+
+        <item>
+            Ecuaciones Lineales
+            \n\nCalcular el valor de la ingognita.
+            \n\n3x - 2 = 2x + 18;
+            x = 18;x = 41;x = 38;*x = 20
+        </item>
+
+        <item>
+            Método de Suma y Resta
+            \n\nCalcular el valor de x y de y
+            \n\nx + y =10  -x + y = 2;*x = 4, y = 6;x = 5, y = 7;x = 3, y = 6;x = 6, y = 4
+        </item>
+
+        <item>
+            Método de Suma y Resta
+            \n\nCalcular el valor de x y de y
+            \n\n5x + 4y =32  6x + 3y = 33;
+            x = 4, y = 4;x = 5, y = 4;*x = 4, y = 3;x = 3, y = 4
+        </item>
+
+        <item>
+            Geometría y Trigonometría
+            \n\nCalcular el complemento del angulo de 10°;*80;70;170;350
+        </item>
+
+        <item>
+            Geometría y Trigonometría
+            \n\nCalcular el suplemento del angulo de 79°;
+            11;440;*101;439
+        </item>
+
+        <item>
+            Figuras Proporcionales
+            \n\n¿Cuál es el valor de la altura de un triangulo de base 30, si es proporcional a un triangulo de base 17 y altura 51?;
+            15;*10;5;20
+        </item>
+
+        <item>
+            Área, Volumen y Perímetro
+            \n\n¿Cuál es el perímetro de un círculo de radio 5cm?;
+            43.96cm;10cm;5cm;*31.40cm
+        </item>
+
+        <item>
+            Área, Volumen y Perímetro
+            \n\n¿Cuál es el área de un círculo de diametro 12cm?;
+            50.24m^2;36cm^2;23.7cm^2;*113.04cm^2
+        </item>
+
+        <item>
+            Teorema de Pitégoras
+            \n\n¿Cuál es la hipotenusa de un triangulo de cateto opuesto = 3 y cateto adyacente = 4?;
+            8;*5;7;2
+        </item>
+
+        <item>
+            Teorema de Pitégoras
+            \n\n¿Cuál es el cateto opuesto de un triangulo de hipotenusa = 10 y cateto adyacente = 8?;*6;8;5;3
+        </item>
+
+        <item>
+            Funciones Trigonométricas
+            \n\n¿Cuál es es la función de tan x?
+            \n\n Datos hipotenusa = 30, cateto opuesto=26 y cateto adyacente =14;
+            26/30;18/32;*26/14;59/41
+        </item>
+
+        <item>
+            Estadística
+            \n\n¿Cuál es la media de los siguientes datos?
+            \n\n Datos: 7, 8, 13, 21, 14, 9, 6, 2;*10;5;9;8
+        </item>
+
+        <item>
+            Estadística
+            \n\n¿Cuál es la mediana de los siguientes datos?
+            \n\n Datos: 10, 5, 3, 15, 21;
+            8;9;5;*10
+        </item>
+
+    </array>
+
+
+
+    <!--PENSAMIENTO ANALÍTICO-->
+    <array name="pa_theory_titles">
+        <item>Pensamiento Analítico 1</item>
+    </array>
+
+    <array name="pa_theory_contents"> <!-- Contenido de pensamiento matemático -->
+        <item><!-- Funciones trigonométricas -->
+            Primer tema de Pensamiento Analítico
+        </item>
+    </array>
+
+    <array name="pa_exam"> <!-- Preguntas -->
+
+        <item>
+            TEMA DE LA PREGUNTA
+            \n\nPA. 1
+            ;*A;B;C;D
+        </item>
+
+    </array>
+
+
+<!--ESTRUCTURA DE LA LENGUA-->
+    <array name="el_theory_titles">
+        <item>Estructura de la Lengua 1</item>
+    </array>
+
+    <array name="el_theory_contents"> <!-- Contenido de pensamiento matemático -->
+        <item><!-- Funciones trigonométricas -->
+            Primer tema de Estructura de la Lengua
+        </item>
+    </array>
+
+    <array name="el_exam"> <!-- Preguntas -->
+
+        <item>
+            TEMA DE LA PREGUNTA
+            \n\nEL. 1
+            ;*A;B;C;D
+        </item>
+
+    </array>
+
+
+<!--COMPRENSIÓN LECTORA-->
+    <array name="cl_theory_titles">
+        <item>Comprensión Lectora 1</item>
+    </array>
+
+    <array name="cl_theory_contents"> <!-- Contenido de pensamiento matemático -->
+        <item><!-- Funciones trigonométricas -->
+            Primer tema de Comprensión Lectora
+        </item>
+    </array>
+
+    <array name="cl_exam"> <!-- Preguntas -->
+
+        <item>
+            TEMA DE LA PREGUNTA
+            \n\nCL. 1
+            ;*A;B;C;D
+        </item>
+
+    </array>
+
+
+</resources>

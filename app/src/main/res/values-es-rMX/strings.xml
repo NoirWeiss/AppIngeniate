@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ingeniate</string>
+    <string name="theory">Teoría</string>
+    <string name="test">Examen</string>
+    <string name="mathematicalthinking">Pensamiento Matemático</string>
+    <string name="analyticalthinking">Pensamiento Analítico</string>
+    <string name="languagestructure">Estructura de la Lengua</string>
+    <string name="lecturecomprehension">Comprensión Lectora</string>
+    <string name="share">Compartir</string>
+    <string name="diagnostic">Diagnóstico</string>
+    <string name="examples">Ejemplos</string>
+    <string name="socialinteraction">Interacción Social</string>
+    <string name="admission">Admisión</string>
+    <string name="action_settings">Configuración</string>
+</resources>
